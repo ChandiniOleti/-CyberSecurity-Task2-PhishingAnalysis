@@ -1,40 +1,56 @@
 # 🛡️ Task 2: Phishing Email Analysis  
 
-## 📌 Task Overview  
-This repository contains the deliverables for **Task 2: Phishing Email Analysis** of my Cyber Security Internship.  
-The objective of this task was to analyze a suspicious email, identify phishing indicators, explain risks, and recommend preventive measures.  
+# 🛡️ Phishing Email Analysis - Microsoft Password Change Alert (Task 2)
+
+## 📌 Internship Task Objective
+Analyze a phishing email to identify suspicious traits, understand social engineering methods, and document the red flags used by attackers to trick victims.
 
 ---
 
-## 📝 What I Did  
-- Collected a **sample phishing email** that mimicked a Microsoft security alert.  
-- Analyzed the email headers, sender details, and content.  
-- Identified phishing traits such as:  
-  - Fake sender domain (email spoofing).  
-  - Urgency and fear tactics.  
-  - Suspicious hyperlinks leading to non-Microsoft domains.  
-  - Generic closing without official Microsoft branding.  
-  - Unusual "opt-out of security notifications" request.  
-- Documented the risks and suggested **preventive measures** like MFA, awareness training, and header analysis.  
+## 📨 Sample Email Analyzed
+A fake notification email pretending to be from **Microsoft**. The email claims the user's password has been changed, includes fake security details, and urges the user to reset the password or review their security settings using provided links.
 
 ---
 
-## 📂 Repository Contents  
-- **Phishing_Email_Analysis_Report.docx** → Detailed report with phishing analysis.  
-- **phishing_email.png** → Screenshot of the phishing email analyzed.  
-- **README.md** → Documentation of the task and key findings.  
+## 🔍 Key Phishing Indicators Identified
+
+- 🚩 **Spoofed Sender**: The sender `support@msupdate.net` is not a legitimate Microsoft domain.
+- ❗ **Urgency and Fear Tactics**: Claims account compromise and urges immediate action.
+- 🔗 **Suspicious Hyperlinks**: Link text appears genuine but may lead to phishing sites.
+- 📄 **Fake Security Details**: IP address, region, and browser info included to create a false sense of authenticity.
+- ✍️ **Generic Content**: No personalization or specific user reference.
+- ❌ **Improper Sign-off and Opt-Out Options**: Official Microsoft emails never allow opting out of critical alerts.
 
 ---
 
-## 🔑 Key Learnings  
-- Practical understanding of **phishing tactics** and **email spoofing**.  
-- Importance of verifying sender domains and hyperlinks before clicking.  
-- Hands-on exposure to **email threat analysis**, a key skill for cybersecurity analysts.  
+## ⚠️ Potential Consequences if Link is Clicked
+
+- Theft of Microsoft account credentials.
+- Identity theft and unauthorized access to email, OneDrive, Teams.
+- Malware or spyware installation.
+- Exploitation of linked accounts and personal data.
 
 ---
 
-## ✅ Conclusion  
-This task highlights how phishing emails exploit human psychology and technical vulnerabilities.  
-By completing this analysis, I gained **practical threat detection skills** that can be applied in **real-world cybersecurity operations**.  
+## 🛡 Recommended Preventive Measures
+
+- ✅ Always verify the sender’s domain and use official support pages.
+- ✅ Never click suspicious links directly from email — type the website manually.
+- ✅ Use email header analyzers to check for spoofing.
+- ✅ Enable Multi-Factor Authentication (MFA) for accounts.
+- ✅ Report phishing to Microsoft: `reportphishing@microsoft.com`.
 
 ---
+
+## 📄 Files Included
+
+- `Phishing_Email_Analysis_Report.pdf`: Full report detailing phishing traits.
+- `phishing_email.png.jpg`: Screenshot of the phishing email used.
+- `README.md`: This file explaining the task and analysis.
+
+---
+
+## 👩‍💻 Submitted By
+
+**Name**: Oleti Chandini  
+**Date**: 05-08-2025
